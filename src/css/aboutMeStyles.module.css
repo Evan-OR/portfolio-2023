@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 40px 0;
 }
 
 .title {
@@ -31,9 +32,14 @@
   font-size: 1.2rem;
 }
 
+.linkWrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
 .link {
   font-size: 1.4rem;
-  color: #2e86ab;
+  color: inherit;
   font-weight: bold;
   text-decoration-thickness: 2px;
 }
