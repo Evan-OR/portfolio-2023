@@ -1,7 +1,19 @@
 import stlye from '../css/aboutMeStyles.module.css';
+import AzureIcon from './svg/BackendIcons/AzureIcon';
+import ExpressIcon from './svg/BackendIcons/ExpressIcon';
+import MySQLIcon from './svg/BackendIcons/MySQLIcon';
+import NodeJsIcon from './svg/BackendIcons/NodeJsIcon';
 import EmailIcon from './svg/EmailIcon';
+import CSSIcon from './svg/frontendIcons/CSSIcon';
+import HTMLIcon from './svg/frontendIcons/HTMLIcon';
+import JavaScriptIcon from './svg/frontendIcons/JavaScriptIcon';
+import ReactIcon from './svg/frontendIcons/ReactIcon';
+import SassIcon from './svg/frontendIcons/SassIcon';
+import TypescriptIcon from './svg/frontendIcons/TypescriptIcon';
 import GitHubIcon from './svg/GitHubIcon';
 import LinkedInIcon from './svg/LinkedInIcon';
+import GitIcon from './svg/otherIcons/GitIcon';
+import JavaIcon from './svg/otherIcons/JavaIcon';
 
 function AboutMe() {
   return (
@@ -33,7 +45,20 @@ function AboutMe() {
         </div>
 
         <div className={stlye.infoWrapper}>
-          ;akldfjg adkg alkfg ;alkdfjg;l kajdfl;gadflgk ;aldfkga;dlfkg;ladkfg l;akdf glak
+          <div className={stlye.iconRow}>
+            <ReactIcon title="React" styles={{ width: '60px' }} />
+            <TypescriptIcon title="TypeScript" styles={{ width: '56px', borderRadius: '6px' }} />
+            <JavaScriptIcon title="JavaScript" styles={{ width: '56px' }} />
+            <HTMLIcon title="HTML" styles={{ width: '46px' }} />
+            <CSSIcon title="CSS" styles={{ width: '46px' }} />
+            <SassIcon title="SASS" styles={{ width: '65px' }} />
+            <AzureIcon title="Azure" styles={{ width: '50px' }} />
+            <NodeJsIcon title="Node.js" styles={{ width: '80px' }} />
+            <ExpressIcon title="express.js" styles={{ transform: 'scale(1)' }} />
+            <MySQLIcon title="MySQL" styles={{ width: '100px' }} />
+            <JavaIcon title="Java" styles={{ width: '50px' }} />
+            <GitIcon title="git" styles={{ width: '100px' }} />
+          </div>
         </div>
       </div>
       {/* MY SKILLSET START */}

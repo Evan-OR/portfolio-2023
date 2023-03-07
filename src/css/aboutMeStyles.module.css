@@ -43,3 +43,13 @@
   font-weight: bold;
   text-decoration-thickness: 2px;
 }
+
+.iconRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.iconRow div {
+  margin: 20px 10px;
+}
