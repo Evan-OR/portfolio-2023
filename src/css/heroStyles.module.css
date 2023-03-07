@@ -1,0 +1,39 @@
+.heroWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #2e86ab;
+  color: white;
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.titleWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.bgText {
+  left: 50%;
+  transform: translateX(-45%);
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  font-size: 200px;
+  width: 1500px;
+}
+
+.name {
+  font-size: 7rem;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', cursive;
+}
+.profession {
+  font-size: 3rem;
+}
