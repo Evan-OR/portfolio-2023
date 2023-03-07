@@ -1,0 +1,65 @@
+.projectDisplayWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #2e86ab;
+  color: white;
+
+  padding-bottom: 50px;
+}
+
+.title {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.projectWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.projectWrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.projectImage {
+  display: block;
+  max-width: 50%;
+}
+
+.projectInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px 80px;
+
+  width: 50%;
+}
+
+.projectInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px 80px;
+
+  width: 50%;
+}
+
+.projectTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.projectTextSection {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}

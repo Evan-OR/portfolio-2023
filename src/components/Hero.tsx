@@ -4,7 +4,7 @@ import PageDivider from './svg/PageDivider';
 function Hero() {
   return (
     <div className={style.heroWrapper}>
-      <PageDivider />
+      <PageDivider flip={false} />
       <div className={style.titleWrapper}>
         <div className={style.name}>Evan O'Rourke</div>
         <div className={style.profession}>
