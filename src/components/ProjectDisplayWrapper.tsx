@@ -29,6 +29,7 @@ function ProjectDisplayWrapper() {
             database using <b>Microsoft Azure</b>.
           </div>,
         ]}
+        codeLink="https://github.com/Evan-OR/team-project-module"
       />
       <ProjectDisplay
         img={weatherApp}
@@ -43,6 +44,8 @@ function ProjectDisplayWrapper() {
             <b>Chart.js</b> and the public <b>REST API</b> OpenWeatherMap.
           </div>,
         ]}
+        codeLink="https://github.com/Evan-OR/weather-app"
+        liveLink="https://evan-or.github.io/weather-app/"
       />
       <ProjectDisplay
         img={taskManager}
@@ -58,6 +61,8 @@ function ProjectDisplayWrapper() {
             Storage used to store users list of tasks.
           </div>,
         ]}
+        codeLink="https://github.com/Evan-OR/todo-v2"
+        liveLink="https://evan-or.github.io/todo-v2/"
       />
       <ProjectDisplay
         img={sortingApp}
@@ -71,6 +76,8 @@ function ProjectDisplayWrapper() {
             Sorting Algorithms: <b>Bubble Sort</b>, <b>Insertion Sort</b>, <b>Selection Sort</b>.
           </div>,
         ]}
+        codeLink="https://github.com/Evan-OR/sortingAlgorithms"
+        liveLink="https://evan-or.github.io/sortingAlgorithms/"
       />
       <ProjectDisplay
         img={portfolioSite}
@@ -84,6 +91,7 @@ function ProjectDisplayWrapper() {
             I created this site using <b>React.js</b> and <b>Typescript</b>.
           </div>,
         ]}
+        codeLink="https://github.com/Evan-OR/portfolio-2023"
       />
     </div>
   );
