@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(250px + 80vw);
+  width: 80%;
   min-width: 50px;
   max-width: 100%;
   z-index: 1;
@@ -31,10 +31,13 @@
 .projectWrapper:nth-child(even) {
   flex-direction: row-reverse;
 }
-
+.projectImageWrapper {
+  display: flex;
+  width: 50%;
+}
 .projectImage {
   display: block;
-  max-width: 50%;
+  width: 50%;
 
   filter: drop-shadow(3px 3px 8px #27272769);
 }
