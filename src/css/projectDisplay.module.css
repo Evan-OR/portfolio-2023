@@ -22,7 +22,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: calc(250px + 80vw);
+  min-width: 50px;
+  max-width: 100%;
   z-index: 1;
 }
 
