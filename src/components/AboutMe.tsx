@@ -70,7 +70,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <div className={stlye.infoWrapper}>
+        <div id={stlye.linkWrapper} className={stlye.infoWrapper}>
           <div className={stlye.linkWrapper}>
             <EmailIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '10px' }} />
             <a className={stlye.link} href="mailto: theevanorourke@gmail.com">

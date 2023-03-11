@@ -20,3 +20,15 @@
 .customShape .shapeFill {
   fill: #ffffff;
 }
+
+@media only screen and (max-width: 800px) {
+  .customShape svg {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .customShape svg {
+    height: 50px;
+  }
+}

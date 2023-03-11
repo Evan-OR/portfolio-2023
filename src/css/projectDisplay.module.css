@@ -105,3 +105,43 @@
   background-color: #272727;
   color: white;
 }
+
+@media only screen and (max-width: 1400px) {
+  .projectWrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .projectInfoWrapper {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .projectWrapper {
+    flex-direction: column;
+  }
+  .projectWrapper:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .projectImage {
+    width: 100%;
+  }
+  .projectInfoWrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .title {
+    margin-top: 100px;
+  }
+}
