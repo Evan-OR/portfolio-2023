@@ -54,7 +54,6 @@ function AboutMe() {
             <SassIcon title="SASS" styles={{ width: '65px' }} />
             <AzureIcon title="Azure" styles={{ width: '50px' }} />
             <NodeJsIcon title="Node.js" styles={{ width: '80px' }} />
-            <ExpressIcon title="express.js" styles={{ transform: 'scale(1)' }} />
             <MySQLIcon title="MySQL" styles={{ width: '100px' }} />
             <JavaIcon title="Java" styles={{ width: '50px' }} />
             <GitIcon title="git" styles={{ width: '100px' }} />

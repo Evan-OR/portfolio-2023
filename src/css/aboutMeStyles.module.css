@@ -34,6 +34,8 @@
   padding: 0 40px;
   width: 100%;
   font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .linkWrapper {
@@ -58,6 +60,29 @@
   margin: 20px 10px;
 }
 
-@media only screen and (max-width: 900px) {
-  /* shite here */
+@media only screen and (max-width: 1300px) {
+  .aboutSectionWrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .aboutSectionWrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+  .infoWrapper {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .iconRow div {
+    transform: scale(0.8);
+    margin: 10px 5px;
+  }
+  .infoWrapper {
+    justify-content: center;
+    padding: 0;
+  }
 }
