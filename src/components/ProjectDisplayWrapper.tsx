@@ -88,7 +88,7 @@ function ProjectDisplayWrapper() {
             show off my web development projects.
           </div>,
           <div className={style.projectTextSection}>
-            I created this site using <b>React.js</b> and <b>Typescript</b>.
+            I created this site using <b>React.js</b>, <b>Typescript</b> and hosted with <b>Microsoft Azure</b>.
           </div>,
         ]}
         codeLink="https://github.com/Evan-OR/portfolio-2023"
