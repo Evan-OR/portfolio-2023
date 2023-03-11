@@ -54,7 +54,6 @@ function AboutMe() {
             <SassIcon title="SASS" styles={{ width: '65px' }} />
             <AzureIcon title="Azure" styles={{ width: '50px' }} />
             <NodeJsIcon title="Node.js" styles={{ width: '80px' }} />
-            <ExpressIcon title="express.js" styles={{ transform: 'scale(1)' }} />
             <MySQLIcon title="MySQL" styles={{ width: '100px' }} />
             <JavaIcon title="Java" styles={{ width: '50px' }} />
             <GitIcon title="git" styles={{ width: '100px' }} />
@@ -71,7 +70,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <div className={stlye.infoWrapper}>
+        <div id={stlye.linkWrapper} className={stlye.infoWrapper}>
           <div className={stlye.linkWrapper}>
             <EmailIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '10px' }} />
             <a className={stlye.link} href="mailto: theevanorourke@gmail.com">

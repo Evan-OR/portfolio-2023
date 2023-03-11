@@ -13,10 +13,22 @@
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 150px;
+  height: 100px;
   fill: #ffffff;
 }
 
 .customShape .shapeFill {
   fill: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+  .customShape svg {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .customShape svg {
+    height: 50px;
+  }
 }

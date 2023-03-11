@@ -18,7 +18,7 @@ function NodeJsIcon(props: svgProps) {
         preserveAspectRatio="xMidYMid"
       >
         <defs>
-          <linearGradient x1="68.188%" y1="17.487%" x2="27.823%" y2="89.755%" id="b">
+          <linearGradient x1="68.188%" y1="17.487%" x2="27.823%" y2="89.755%" id="bbbbb">
             <stop stopColor="#41873F" offset="0%" />
             <stop stopColor="#418B3D" offset="32.88%" />
             <stop stopColor="#419637" offset="63.52%" />
@@ -29,37 +29,37 @@ function NodeJsIcon(props: svgProps) {
             id="a"
             d="M57.903 1.85a5.957 5.957 0 0 0-5.894 0L3.352 29.933c-1.85 1.04-2.89 3.005-2.89 5.085v56.286c0 2.08 1.156 4.045 2.89 5.085l48.657 28.085a5.957 5.957 0 0 0 5.894 0l48.658-28.085c1.849-1.04 2.89-3.005 2.89-5.085V35.019c0-2.08-1.157-4.045-2.89-5.085L57.903 1.85z"
           />
-          <linearGradient x1="43.277%" y1="55.169%" x2="159.245%" y2="-18.306%" id="d">
+          <linearGradient x1="43.277%" y1="55.169%" x2="159.245%" y2="-18.306%" id="ddddd">
             <stop stopColor="#41873F" offset="13.76%" />
             <stop stopColor="#54A044" offset="40.32%" />
             <stop stopColor="#66B848" offset="71.36%" />
             <stop stopColor="#6CC04A" offset="90.81%" />
           </linearGradient>
-          <linearGradient x1="-4413.77%" y1="13.43%" x2="5327.93%" y2="13.43%" id="e">
+          <linearGradient x1="-4413.77%" y1="13.43%" x2="5327.93%" y2="13.43%" id="eeeeeeee">
             <stop stopColor="#6CC04A" offset="9.192%" />
             <stop stopColor="#66B848" offset="28.64%" />
             <stop stopColor="#54A044" offset="59.68%" />
             <stop stopColor="#41873F" offset="86.24%" />
           </linearGradient>
-          <linearGradient x1="-4.389%" y1="49.997%" x2="101.499%" y2="49.997%" id="f">
+          <linearGradient x1="-4.389%" y1="49.997%" x2="101.499%" y2="49.997%" id="ffffffff">
             <stop stopColor="#6CC04A" offset="9.192%" />
             <stop stopColor="#66B848" offset="28.64%" />
             <stop stopColor="#54A044" offset="59.68%" />
             <stop stopColor="#41873F" offset="86.24%" />
           </linearGradient>
-          <linearGradient x1="-9713.77%" y1="36.21%" x2="27.93%" y2="36.21%" id="g">
+          <linearGradient x1="-9713.77%" y1="36.21%" x2="27.93%" y2="36.21%" id="ggggg">
             <stop stopColor="#6CC04A" offset="9.192%" />
             <stop stopColor="#66B848" offset="28.64%" />
             <stop stopColor="#54A044" offset="59.68%" />
             <stop stopColor="#41873F" offset="86.24%" />
           </linearGradient>
-          <linearGradient x1="-103.861%" y1="50.275%" x2="100.797%" y2="50.275%" id="h">
+          <linearGradient x1="-103.861%" y1="50.275%" x2="100.797%" y2="50.275%" id="hhhhh">
             <stop stopColor="#6CC04A" offset="9.192%" />
             <stop stopColor="#66B848" offset="28.64%" />
             <stop stopColor="#54A044" offset="59.68%" />
             <stop stopColor="#41873F" offset="86.24%" />
           </linearGradient>
-          <linearGradient x1="130.613%" y1="-211.069%" x2="4.393%" y2="201.605%" id="i">
+          <linearGradient x1="130.613%" y1="-211.069%" x2="4.393%" y2="201.605%" id="iiiii">
             <stop stopColor="#41873F" offset="0%" />
             <stop stopColor="#418B3D" offset="32.88%" />
             <stop stopColor="#419637" offset="63.52%" />
@@ -81,46 +81,46 @@ function NodeJsIcon(props: svgProps) {
             fill="#539E43"
           />
           <g transform="translate(134.068 70.501)">
-            <mask id="c" fill="#fff">
+            <mask id="c" fill="#ffffffff">
               <use xlinkHref="#a" />
             </mask>
-            <use fill="url(#b)" xlinkHref="#a" />
+            <use fill="url(#bbbbb)" xlinkHref="#a" />
             <g mask="url(#c)">
               <path d="M51.893 1.85L3.121 29.933C1.27 30.974 0 32.94 0 35.02v56.286c0 1.387.578 2.658 1.502 3.698L56.285 1.156c-1.387-.231-3.005-.116-4.392.693zM56.632 125.053c.462-.116.925-.347 1.387-.578l48.773-28.085c1.85-1.04 3.005-3.005 3.005-5.085V35.019c0-1.502-.694-3.005-1.734-4.045l-51.43 94.079z" />
               <path
                 d="M106.676 29.934L57.788 1.85a8.025 8.025 0 0 0-1.503-.578L1.502 95.12a6.082 6.082 0 0 0 1.619 1.387l48.888 28.085c1.387.809 3.005 1.04 4.507.577l51.432-94.078c-.347-.462-.81-.81-1.272-1.156z"
-                fill="url(#d)"
+                fill="url(#ddddd)"
               />
             </g>
             <g mask="url(#c)">
               <path d="M109.797 91.305V35.019c0-2.08-1.271-4.045-3.12-5.085L57.786 1.85a5.106 5.106 0 0 0-1.848-.693l53.511 91.42c.231-.347.347-.809.347-1.271zM3.12 29.934C1.272 30.974 0 32.94 0 35.02v56.286c0 2.08 1.387 4.045 3.12 5.085l48.889 28.085c1.156.693 2.427.925 3.814.693L3.467 29.818l-.346.116z" />
               <path
-                fill="url(#e)"
+                fill="url(#eeeeeeee)"
                 fillRule="evenodd"
                 d="M50.391.809l-.693.347h.924l-.231-.347z"
                 transform="translate(0 -9.246)"
               />
               <path
                 d="M106.792 105.636c1.387-.809 2.427-2.196 2.89-3.698L56.053 10.402c-1.387-.231-2.89-.116-4.16.693L3.351 39.065l52.355 95.465a8.057 8.057 0 0 0 2.196-.693l48.889-28.2z"
-                fill="url(#f)"
+                fill="url(#ffffffff)"
                 fillRule="evenodd"
                 transform="translate(0 -9.246)"
               />
               <path
-                fill="url(#g)"
+                fill="url(#ggggg)"
                 fillRule="evenodd"
                 d="M111.3 104.712l-.347-.578v.809l.346-.231z"
                 transform="translate(0 -9.246)"
               />
               <path
                 d="M106.792 105.636l-48.773 28.085a6.973 6.973 0 0 1-2.196.693l.925 1.734 54.089-31.32v-.694l-1.387-2.312c-.231 1.618-1.271 3.005-2.658 3.814z"
-                fill="url(#h)"
+                fill="url(#hhhhh)"
                 fillRule="evenodd"
                 transform="translate(0 -9.246)"
               />
               <path
                 d="M106.792 105.636l-48.773 28.085a6.973 6.973 0 0 1-2.196.693l.925 1.734 54.089-31.32v-.694l-1.387-2.312c-.231 1.618-1.271 3.005-2.658 3.814z"
-                fill="url(#i)"
+                fill="url(#iiiii)"
                 fillRule="evenodd"
                 transform="translate(0 -9.246)"
               />
