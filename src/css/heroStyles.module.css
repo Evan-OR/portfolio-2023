@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #2e86ab;
+  background-image: linear-gradient(to bottom, #2e86ab, #2e86ab, #2e86ab, #50a4c7, #5baed1);
   color: white;
 
   width: 100%;
