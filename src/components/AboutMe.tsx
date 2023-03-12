@@ -15,12 +15,22 @@ import GitIcon from './svg/otherIcons/GitIcon';
 import JavaIcon from './svg/otherIcons/JavaIcon';
 import cv from "../cv/Evan O'Rourke CV.pdf";
 import FileIcon from './svg/FileIcon';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 function AboutMe() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
   return (
     <div className={stlye.aboutWrapper}>
       {/* ABOUT SECTION START */}
-      <div className={stlye.aboutSectionWrapper}>
+      <div className={stlye.aboutSectionWrapper} data-aos="fade-up">
         <div className={stlye.title}>
           <div>
             <span className={stlye.titleHighlight}>About</span> Me
@@ -38,7 +48,7 @@ function AboutMe() {
       {/* ABOUT SECTION END */}
 
       {/* MY SKILLSET START */}
-      <div className={stlye.aboutSectionWrapper}>
+      <div className={stlye.aboutSectionWrapper} data-aos="fade-up">
         <div className={stlye.title}>
           <div>
             My <span className={stlye.titleHighlight}>Skillset</span>
@@ -64,7 +74,7 @@ function AboutMe() {
       {/* MY SKILLSET START */}
 
       {/* CONTACT ME START */}
-      <div className={stlye.aboutSectionWrapper}>
+      <div className={stlye.aboutSectionWrapper} data-aos="fade-up">
         <div className={stlye.title}>
           <div>
             <span className={stlye.titleHighlight}>Contact</span> Me
