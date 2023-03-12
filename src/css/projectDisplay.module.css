@@ -5,21 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  background-image: linear-gradient(
-    to bottom,
-    #2e86ab,
-    #3088ad,
-    #328ab0,
-    #338db2,
-    #358fb5,
-    #358fb5,
-    #358fb5,
-    #358fb5,
-    #338db2,
-    #328ab0,
-    #3088ad,
-    #2e86ab
-  );
+  background-color: #2e86ab;
   color: white;
 
   padding-bottom: 50px;
