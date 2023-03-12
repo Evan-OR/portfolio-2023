@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #2e86ab;
+  background-image: linear-gradient(to bottom, #2e86ab, #2e86ab, #2e86ab, #50a4c7, #5baed1);
   color: white;
 
   width: 100%;
@@ -24,9 +24,35 @@
   font-size: 120px;
   font-weight: bolder;
   font-family: 'Permanent Marker', cursive;
+
+  transition-property: all;
+  transition-duration: 1.4s;
+  transition-timing-function: ease-out;
+
+  /* Animated Properties */
+  opacity: 0;
+  transform: translateY(-50px);
 }
+.nameAnimation {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .profession {
   font-size: 3rem;
+
+  transition-property: all;
+  transition-duration: 1.4s;
+  transition-timing-function: ease-out;
+  transition-delay: 1.2s;
+
+  /* Animated Properties */
+  opacity: 0;
+  transform: translateY(50px);
+}
+.professionAnimation {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media only screen and (max-width: 900px) {

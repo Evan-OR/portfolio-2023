@@ -1,4 +1,7 @@
 import style from '../css/projectDisplay.module.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 type ProjectDisplayProps = {
   img: string;
@@ -10,8 +13,16 @@ type ProjectDisplayProps = {
 
 function ProjectDisplay(props: ProjectDisplayProps) {
   const { img, text, title, codeLink, liveLink } = props;
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
   return (
-    <div className={style.projectWrapper}>
+    <div className={style.projectWrapper} data-aos="fade-up">
       <img draggable={false} className={style.projectImage} src={img}></img>
 
       <div className={style.projectInfoWrapper}>
