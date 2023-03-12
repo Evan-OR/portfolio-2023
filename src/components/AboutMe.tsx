@@ -73,9 +73,9 @@ function AboutMe() {
 
         <div id={stlye.linkWrapper} className={stlye.infoWrapper}>
           <div className={stlye.linkWrapper}>
-            <EmailIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '12px' }} />
-            <a className={stlye.link} href="mailto: theevanorourke@gmail.com">
-              theevanorourke@gmail.com
+            <GitHubIcon styles={{ fill: '#2e86ab', width: '30px', marginRight: '10px' }} />
+            <a target="_blank" className={stlye.link} href="https://github.com/Evan-OR">
+              GitHub
             </a>
           </div>
           <div className={stlye.linkWrapper}>
@@ -84,16 +84,17 @@ function AboutMe() {
               LinkedIn
             </a>
           </div>
-          <div className={stlye.linkWrapper}>
-            <GitHubIcon styles={{ fill: '#2e86ab', width: '30px', marginRight: '10px' }} />
-            <a target="_blank" className={stlye.link} href="https://github.com/Evan-OR">
-              GitHub
-            </a>
-          </div>
+
           <div className={stlye.linkWrapper}>
             <FileIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '8px', marginLeft: '4px' }} />
             <a target="_blank" className={stlye.link} href={cv}>
               Download CV
+            </a>
+          </div>
+          <div className={stlye.linkWrapper}>
+            <EmailIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '12px' }} />
+            <a className={stlye.link} href="mailto: theevanorourke@gmail.com">
+              theevanorourke@gmail.com
             </a>
           </div>
         </div>

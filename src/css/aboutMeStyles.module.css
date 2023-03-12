@@ -74,6 +74,12 @@
   .infoWrapper {
     align-items: center;
   }
+  .infoWrapper {
+    margin-top: 20px;
+  }
+  .linkWrapper {
+    margin: 10px 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
