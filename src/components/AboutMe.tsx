@@ -39,10 +39,14 @@ function AboutMe() {
 
         <div className={stlye.infoWrapper}>
           <p>
-            Hi, I'm Evan, I'm passionate about developing high-quality code that meets user needs and solving complex
-            problems.
+            Hi, I'm Evan, a student studying Computing at the National College of Ireland. I'm passionate about software
+            engineering and have gained knowledge and skills through coursework and personal projects.
           </p>
-          <p>I am currently pursuing a Bachelor of Science in Computing at the National College of Ireland.</p>
+          <p>
+            I have experience working with various frontend and backend technologies,and enjoy tackling complex
+            problems. I'm committed to continuous learning and growth and eager to apply my skills to real-world
+            challenges.
+          </p>
         </div>
       </div>
       {/* ABOUT SECTION END */}
