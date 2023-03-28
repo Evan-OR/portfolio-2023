@@ -8,6 +8,7 @@ type ProjectDisplayProps = {
   title: string;
   text: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>[];
   codeLink: string;
+  altText: string;
   liveLink?: string;
 };
 

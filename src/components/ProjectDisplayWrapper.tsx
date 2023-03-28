@@ -15,6 +15,7 @@ function ProjectDisplayWrapper() {
 
       <ProjectDisplay
         img={teamProjectImage}
+        altText="Image of my Team Project App"
         title={'Food and Drink App'}
         text={[
           <div className={style.projectTextSection}>
@@ -33,6 +34,7 @@ function ProjectDisplayWrapper() {
       />
       <ProjectDisplay
         img={weatherApp}
+        altText="Image of my Weather App"
         title={'Weather App'}
         text={[
           <div className={style.projectTextSection}>
@@ -49,6 +51,7 @@ function ProjectDisplayWrapper() {
       />
       <ProjectDisplay
         img={taskManager}
+        altText="Image of my Task Manager App"
         title={'Task Management App'}
         text={[
           <div className={style.projectTextSection}>
@@ -66,6 +69,7 @@ function ProjectDisplayWrapper() {
       />
       <ProjectDisplay
         img={sortingApp}
+        altText="Image of my Sorting Algorithms Visualization App"
         title={'Sorting Algorithms Visualization'}
         text={[
           <div className={style.projectTextSection}>
@@ -81,6 +85,7 @@ function ProjectDisplayWrapper() {
       />
       <ProjectDisplay
         img={portfolioSite}
+        altText="My Portfolio Site Image"
         title={'My Portfolio Site'}
         text={[
           <div className={style.projectTextSection}>
