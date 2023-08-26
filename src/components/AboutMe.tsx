@@ -102,7 +102,7 @@ function AboutMe() {
           <div className={stlye.linkWrapper}>
             <FileIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '8px', marginLeft: '4px' }} />
             <a target="_blank" className={stlye.link} href={cv}>
-              Download CV
+              CV
             </a>
           </div>
           <div className={stlye.linkWrapper}>
