@@ -18,6 +18,7 @@ import FileIcon from './svg/FileIcon';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import PythonIcon from './svg/otherIcons/PythonIcon';
 
 function AboutMe() {
   useEffect(() => {
@@ -43,7 +44,7 @@ function AboutMe() {
             engineering and have gained knowledge and skills through coursework and personal projects.
           </p>
           <p>
-            I have experience working with various frontend and backend technologies,and enjoy tackling complex
+            I have experience working with various frontend and backend technologies, and enjoy tackling complex
             problems. I'm committed to continuous learning and growth and eager to apply my skills to real-world
             challenges.
           </p>
@@ -66,11 +67,11 @@ function AboutMe() {
             <JavaScriptIcon title="JavaScript" styles={{ width: '56px' }} />
             <HTMLIcon title="HTML" styles={{ width: '46px' }} />
             <CSSIcon title="CSS" styles={{ width: '46px' }} />
-            <SassIcon title="SASS" styles={{ width: '65px' }} />
+            <PythonIcon title="Python" styles={{ width: '60px', height: '60px' }} />
+            <JavaIcon title="Java" styles={{ width: '50px' }} />
             <AzureIcon title="Azure" styles={{ width: '50px' }} />
             <NodeJsIcon title="Node.js" styles={{ width: '80px' }} />
             <MySQLIcon title="MySQL" styles={{ width: '100px' }} />
-            <JavaIcon title="Java" styles={{ width: '50px' }} />
             <GitIcon title="git" styles={{ width: '100px' }} />
           </div>
         </div>
