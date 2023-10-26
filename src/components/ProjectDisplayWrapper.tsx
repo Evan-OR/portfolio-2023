@@ -37,7 +37,7 @@ function ProjectDisplayWrapper() {
         title={'Food and Drink App'}
         text={[
           <div className={style.projectTextSection}>
-            This is a team project I am currently working on in college. It recommends new foods and drinks fore users
+            This is a team project I worked on in college. It used a recommendation system to suggest drinks for users
             to try out based on their likes.
           </div>,
           <div className={style.projectTextSection}>
