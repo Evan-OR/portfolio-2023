@@ -6,6 +6,7 @@ import taskManager from '../images/Responsive_taskmanager.png';
 import sortingApp from '../images/sortingImg.png';
 import portfolioSite from '../images/Responsive_portfolio.png';
 import ProjectDisplay from './ProjectDisplay';
+import lilLink from '../images/lil_link.png';
 
 function ProjectDisplayWrapper() {
   return (
@@ -14,12 +15,29 @@ function ProjectDisplayWrapper() {
       <div className={style.title}>{'<Projects />'}</div>
 
       <ProjectDisplay
+        img={lilLink}
+        altText="Image of my Lil Link App"
+        title={'URL Shortener and QR Code Generator '}
+        text={[
+          <div className={style.projectTextSection}>
+            This website I created allows users to shorten and generate QR codes for their URL's.
+          </div>,
+          <div className={style.projectTextSection}>
+            The project was created using <b>Python</b> and <b>Flask</b> to create the <b>REST API</b> that served{' '}
+            <b>HTML templates</b> to the user frontend and interacted with the <b>MySQL</b> database. Both the web app
+            and the database are hosted on <b>Microsoft Azure</b>.
+          </div>,
+        ]}
+        codeLink="https://github.com/Evan-OR/url-shortener"
+        liveLink="https://www.lillink.net"
+      />
+      <ProjectDisplay
         img={teamProjectImage}
         altText="Image of my Team Project App"
         title={'Food and Drink App'}
         text={[
           <div className={style.projectTextSection}>
-            This is a team project I am currently working on in college. It recommends new foods and drinks fore users
+            This is a team project I worked on in college. It used a recommendation system to suggest drinks for users
             to try out based on their likes.
           </div>,
           <div className={style.projectTextSection}>
