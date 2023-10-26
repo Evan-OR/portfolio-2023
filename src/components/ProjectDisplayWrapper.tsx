@@ -6,6 +6,7 @@ import taskManager from '../images/Responsive_taskmanager.png';
 import sortingApp from '../images/sortingImg.png';
 import portfolioSite from '../images/Responsive_portfolio.png';
 import ProjectDisplay from './ProjectDisplay';
+import lilLink from '../images/lil_link.png';
 
 function ProjectDisplayWrapper() {
   return (
@@ -13,6 +14,25 @@ function ProjectDisplayWrapper() {
       <PageDivider flip={true} />
       <div className={style.title}>{'<Projects />'}</div>
 
+      <ProjectDisplay
+        img={lilLink}
+        altText="Image of my Lil Link App"
+        title={'URL Shortener and QR Code Generator '}
+        text={[
+          <div className={style.projectTextSection}>
+            This is a team project I am currently working on in college. It recommends new foods and drinks fore users
+            to try out based on their likes.
+          </div>,
+          <div className={style.projectTextSection}>
+            The frontend was made with <b>React.js</b> and <b>TypeScript</b>, styled with <b>SASS</b>.
+          </div>,
+          <div className={style.projectTextSection}>
+            We used <b>Node.js</b> and <b>express.js</b> to create out own <b>REST API</b> and we hosted a <b>MySQL</b>
+            database using <b>Microsoft Azure</b>.
+          </div>,
+        ]}
+        codeLink="https://github.com/Evan-OR/team-project-module"
+      />
       <ProjectDisplay
         img={teamProjectImage}
         altText="Image of my Team Project App"
