@@ -20,18 +20,16 @@ function ProjectDisplayWrapper() {
         title={'URL Shortener and QR Code Generator '}
         text={[
           <div className={style.projectTextSection}>
-            This is a team project I am currently working on in college. It recommends new foods and drinks fore users
-            to try out based on their likes.
+            This website I created allows users to shorten and generate QR codes for their URL's.
           </div>,
           <div className={style.projectTextSection}>
-            The frontend was made with <b>React.js</b> and <b>TypeScript</b>, styled with <b>SASS</b>.
-          </div>,
-          <div className={style.projectTextSection}>
-            We used <b>Node.js</b> and <b>express.js</b> to create out own <b>REST API</b> and we hosted a <b>MySQL</b>
-            database using <b>Microsoft Azure</b>.
+            The project was created using <b>Python</b> and <b>Flask</b> to create the <b>REST API</b> that served{' '}
+            <b>HTML templates</b> to the user frontend and interacted with the <b>MySQL</b> database. Both the web app
+            and the database are hosted on <b>Microsoft Azure</b>.
           </div>,
         ]}
-        codeLink="https://github.com/Evan-OR/team-project-module"
+        codeLink="https://github.com/Evan-OR/url-shortener"
+        liveLink="https://www.lillink.net"
       />
       <ProjectDisplay
         img={teamProjectImage}
