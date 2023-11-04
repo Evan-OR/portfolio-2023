@@ -22,6 +22,6 @@ Here are some of the key features of my portfolio website:
 
 ## Contact
 
-If you have any questions or want to get in touch, you can reach me at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions or want to get in touch, you can reach me at [theevanorourke@gmail.com](theevanorourke@gmail.com).
 
 Thank you for visiting my portfolio website repository, and I hope you find it interesting and informative!
