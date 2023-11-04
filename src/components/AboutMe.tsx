@@ -88,28 +88,26 @@ function AboutMe() {
 
         <div id={stlye.linkWrapper} className={stlye.infoWrapper}>
           <div className={stlye.linkWrapper}>
-            <GitHubIcon styles={{ fill: '#2e86ab', width: '30px', marginRight: '10px' }} />
-            <a target="_blank" className={stlye.link} href="https://github.com/Evan-OR">
-              GitHub
-            </a>
-          </div>
-          <div className={stlye.linkWrapper}>
-            <LinkedInIcon styles={{ fill: '#2e86ab', width: '30px', marginRight: '10px' }} />
-            <a target="_blank" className={stlye.link} href="https://www.linkedin.com/in/evan-orourke/">
-              LinkedIn
+            <a title="GitHub" target="_blank" className={stlye.link} href="https://github.com/Evan-OR">
+              <GitHubIcon styles={{ fill: '#2e86ab', width: '30px' }} />
             </a>
           </div>
 
           <div className={stlye.linkWrapper}>
-            <FileIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '8px', marginLeft: '4px' }} />
-            <a target="_blank" className={stlye.link} href={cv}>
-              CV
+            <a title="LinkedIn" target="_blank" className={stlye.link} href="https://www.linkedin.com/in/evan-orourke/">
+              <LinkedInIcon styles={{ fill: '#2e86ab', width: '30px' }} />
             </a>
           </div>
+
           <div className={stlye.linkWrapper}>
-            <EmailIcon styles={{ fill: '#2e86ab', width: '28px', marginRight: '12px' }} />
-            <a className={stlye.link} href="mailto: theevanorourke@gmail.com">
-              theevanorourke@gmail.com
+            <a title="Email" className={stlye.link} href="mailto:theevanorourke@gmail.com">
+              <EmailIcon styles={{ fill: '#2e86ab', width: '28px' }} />
+            </a>
+          </div>
+
+          <div className={stlye.linkWrapper}>
+            <a title="CV" target="_blank" className={stlye.link} href={cv}>
+              <FileIcon styles={{ fill: '#2e86ab', width: '28px' }} />
             </a>
           </div>
         </div>
