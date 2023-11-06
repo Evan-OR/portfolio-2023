@@ -38,7 +38,7 @@ function AboutMe() {
           </div>
         </div>
 
-        <div className={stlye.infoWrapper}>
+        <div className={`${stlye.infoWrapper} ${stlye.first}`}>
           <p>
             Hi, I'm Evan, a student studying Computing at the National College of Ireland. I'm passionate about software
             engineering and have gained knowledge and skills through coursework and personal projects.
