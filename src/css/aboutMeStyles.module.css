@@ -39,6 +39,10 @@
   align-items: center;
 }
 
+.infoWrapper.first {
+  flex-direction: column;
+}
+
 .linkWrapper {
   display: flex;
   height: fit-content;
