@@ -7,7 +7,6 @@ function Hero() {
   const professionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    console.log('Only runs once');
     titleRef.current?.classList.add(style.nameAnimation);
     professionRef.current?.classList.add(style.professionAnimation);
   }, []);
