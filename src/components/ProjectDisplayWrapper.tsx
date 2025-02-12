@@ -34,7 +34,7 @@ function ProjectDisplayWrapper() {
       <ProjectDisplay
         img={teamProjectImage}
         altText="Image of my Team Project App"
-        title={'Food and Drink App'}
+        title={'Drink Recommendation App'}
         text={[
           <div className={style.projectTextSection}>
             This is a team project I worked on in college. It used a recommendation system to suggest drinks for users
@@ -44,7 +44,7 @@ function ProjectDisplayWrapper() {
             The frontend was made with <b>React.js</b> and <b>TypeScript</b>, styled with <b>SASS</b>.
           </div>,
           <div className={style.projectTextSection}>
-            We used <b>Node.js</b> and <b>express.js</b> to create out own <b>REST API</b> and we hosted a <b>MySQL</b>
+            We used <b>Node.js</b> and <b>express.js</b> to create out own <b>REST API</b> and we hosted a <b>MySQL </b>
             database using <b>Microsoft Azure</b>.
           </div>,
         ]}
