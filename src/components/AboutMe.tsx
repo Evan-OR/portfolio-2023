@@ -40,8 +40,9 @@ function AboutMe() {
 
         <div className={`${stlye.infoWrapper} ${stlye.first}`}>
           <p>
-            Hi, I'm Evan, a student studying Computing at the National College of Ireland. I'm passionate about software
-            engineering and have gained knowledge and skills through coursework and personal projects.
+            Hello 👋, I'm Evan, a Software Engineer and B.Sc. Computing student at NCI. I'm passionate about software
+            engineering and have gained knowledge and skills through two internships at Shutterstock and Optum,
+            coursework and personal projects.
           </p>
           <p>
             I have experience working with various frontend and backend technologies, and enjoy tackling complex
