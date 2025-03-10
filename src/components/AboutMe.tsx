@@ -46,8 +46,7 @@ function AboutMe() {
           </p>
           <p>
             I have experience working with various frontend and backend technologies, and enjoy tackling complex
-            problems. I'm committed to continuous learning and growth and eager to apply my skills to real-world
-            challenges.
+            problems. I'm dedicated to continuous learning and growth, eager to apply and expand my engineering skills.
           </p>
         </div>
       </div>
