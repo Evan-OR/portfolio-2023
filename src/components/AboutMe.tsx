@@ -62,13 +62,13 @@ function AboutMe() {
 
         <div className={stlye.infoWrapper}>
           <div className={stlye.iconRow}>
-            <ReactIcon title="React" styles={{ width: '60px' }} />
+            <PythonIcon title="Python" styles={{ width: '60px', height: '60px' }} />
             <TypescriptIcon title="TypeScript" styles={{ width: '56px', borderRadius: '6px' }} />
             <JavaScriptIcon title="JavaScript" styles={{ width: '56px' }} />
+            <JavaIcon title="Java" styles={{ width: '50px' }} />
+            <ReactIcon title="React" styles={{ width: '60px' }} />
             <HTMLIcon title="HTML" styles={{ width: '46px' }} />
             <CSSIcon title="CSS" styles={{ width: '46px' }} />
-            <PythonIcon title="Python" styles={{ width: '60px', height: '60px' }} />
-            <JavaIcon title="Java" styles={{ width: '50px' }} />
             <AzureIcon title="Azure" styles={{ width: '50px' }} />
             <NodeJsIcon title="Node.js" styles={{ width: '80px' }} />
             <MySQLIcon title="MySQL" styles={{ width: '100px' }} />
